@@ -1,0 +1,27 @@
+/* Write your code here: */
+/*using a comma, changes both elements*/
+h1, h2 {
+  color: blueviolet;
+}
+
+/*changing the child of an element*/
+.box > p {
+  color: firebrick;
+}
+
+/*changing descendants of an element*/
+.box li {
+  color: blue;
+}
+
+/*chaining = apply where all selectors are true*/
+li.done {
+  color: seagreen;
+}
+
+/*combining combiners*/
+ul p.done {
+  font-size: 0.5rem;
+}
+
+/*Descendants is better that using the child*/
