@@ -6,7 +6,7 @@ inquirer
   .prompt([
     {
       message: "Type in your URL: ",
-      name: "URL",
+      name: "URL"
     },
   ])
   .then((answers) => {
