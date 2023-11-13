@@ -1,8 +1,8 @@
 import express from "express"
 
 
-var app = express();
-var port = 3000;
+const app = express();
+const port = 3000;
 
 
 
@@ -17,3 +17,4 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`listening on port ${3000}`);
 })
+    
